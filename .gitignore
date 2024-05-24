@@ -1,0 +1,11 @@
+node_modules
+/.cache
+/build
+/dist
+/public/build
+/.mf
+.env
+.vscode
+/.hydrogen/
+pnpm-lock.yaml
+package-lock.json
