@@ -10,6 +10,7 @@ const requestLogger = (request, response, next) => {
 };
 app.use(express.json());
 app.use(requestLogger);
+console.log(123);
 
 let notes = [
   {
