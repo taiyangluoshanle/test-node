@@ -10,16 +10,7 @@ Content-Type: application/json
   "important": true
 }
 
-
 ###
-DELETE  http://localhost:3001/api/phonebook/2
+GET http://localhost:3001/api/notes/66543135bf0bcf69694725fd
 
 
-###
-POST http://localhost:3001/api/phonebook
-Content-Type: application/json
-
-{
-  "name": "Postman is a good tool",
-  "number": 123456789
-}
