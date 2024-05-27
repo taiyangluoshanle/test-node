@@ -1,0 +1,16 @@
+###
+DELETE  http://localhost:3001/api/phonebook/2
+
+
+###
+POST http://localhost:3001/api/phonebook
+Content-Type: application/json
+
+{
+  "name": "magua",
+  "phone": "123456789"
+}
+
+
+###
+GET http://localhost:3001/api/phonebook
