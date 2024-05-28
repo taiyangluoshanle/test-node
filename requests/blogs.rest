@@ -1,0 +1,10 @@
+###
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+
+{
+  "title": "React 19 is better than React 18",
+  "author": "FaceBook",
+  "url": "react.org",
+  "likes": 0
+}
