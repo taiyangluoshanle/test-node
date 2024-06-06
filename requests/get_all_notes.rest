@@ -4,13 +4,28 @@ Content-Type: application/json
 ###
 POST http://localhost:3001/api/notes
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWQiOiI2NjU2ZWM5MGM5NGVmMGRkMmVkOWU3OWEiLCJpYXQiOjE3MTY5NzQ1MTh9.pYKKw6g9JQKAJN8lfj8O56xkvzsruvq9yFaP1Etyu38
 
 {
-  "content": "Postman is a good tool",
-  "important": true
+  "content": "note login5",
+  "important": true,
+  "userId": "6656ec90c94ef0dd2ed9e79a"
 }
 
 ###
-GET http://localhost:3001/api/notes/66543135bf0bcf69694725fd
+GET http://localhost:3001/api/notes/6656a573766a30a0b2424a8e
 
+###
+PUT http://localhost:3001/api/notes/6656f404df74dfc39c67d14a
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWQiOiI2NjU2ZWM5MGM5NGVmMGRkMmVkOWU3OWEiLCJpYXQiOjE3MTY5NzQ1MTh9.pYKKw6g9JQKAJN8lfj8O56xkvzsruvq9yFaP1Etyu38
+
+{
+  "content": "note323",
+  "important": true,
+  "userId": "6656ec90c94ef0dd2ed9e79a"
+}
+
+###
+DELETE http://localhost:3001/api/notes/6656f46b083e78cfe76661ef 
 
